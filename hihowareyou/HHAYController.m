@@ -113,7 +113,7 @@
      addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
      handler:^ (NSEvent *event) {
         int nextTick = floor([[NSDate date] timeIntervalSince1970] / 60) * 60;
-        if (nextTick - lastTick > 60) {
+        if (nextTick - lastTick > 30) {
             lastTick = nextTick;
 
             [pOutput seekToEndOfFile];

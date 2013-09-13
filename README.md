@@ -24,8 +24,7 @@ minute for a week, showing patterns in sleeping hours, etc.
 
 ## How to Use it
 
-Download the binary (see below), and run it. It'll record keystrokes at `~/Documents/minute/keystrokes.log` in a
-CSV document. In order for this to work, you need to enable access for assistive devices:
+Download the binary (which I do not personally maintain, but see below), and run it. It'll record keystrokes at `~/Documents/minute/keystrokes.log` in a CSV document. In order for this to work, you need to enable access for assistive devices:
 
 ![](http://farm9.staticflickr.com/8184/8141535663_8c690914d1_z.jpg)
 
@@ -36,8 +35,7 @@ to get this working.
 
 ## What it Does, Technically
 
-It fills in a log at `~/Documents/minute/keystrokes.log` with
-the number of keystrokes you make every minute.
+They pre-compiled binary is not maintained by me, however, the binary compiled from this code will fill in a log at `~/log/keystrokes.log` with the number of keystrokes you make every minute.
 
 All it does is count keystrokes. Unlike a keylogger,
 it doesn't steal your money, or do anything amusing that gains
